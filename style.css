@@ -1,0 +1,438 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", Comfortaa, sans-serif;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100vw;
+  background-color: black;
+}
+
+#header-img {
+  height: 200px;
+  background-image: url(img/header2.jpg);
+  width: cover;
+  background-repeat: no-repeat;
+  margin-bottom: .5rem;
+}
+
+#dvd-header-img {
+  padding-top: .3rem;
+  background-image: url(dvd/dvd-banner3.jpg);
+  background-size: 100%;
+  width: 100vw;
+  background-repeat: no-repeat;
+}
+
+#dvd-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#dvd-top-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 11vh;
+}
+
+.display-6 {
+  padding: .5rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  padding-top: .8rem;
+  color: #cfbb06;
+  text-shadow: 2px 2px 3px #59f112d8, 2px -2px 3px #f13080, -2px 2px 2px royalblue, -2px -2px 3px royalblue;
+  font-weight: 100;
+  background-color: rgba(27, 96, 207, 0.233);
+  border-radius: 50%;
+  margin-top: 2rem;
+  margin-left: 2.2rem;
+  margin-right: 3rem;
+}
+
+/*
+h1:hover{
+    color: rgb(0, 0, 59);
+    text-shadow:  2px 2px 3px #157e4dd8,
+    2px -2px 3px rgba(195, 35, 102, 0.712),
+    -2px 2px 2px rgb(82, 16, 144),
+    -2px -2px 3px rgba(65, 105, 225, 0.575)   
+}
+*/
+.bauchbinde {
+  background-image: url(img/bauchbinde.jpg);
+  height: 3rem;
+  background-size: 100%;
+  width: 100vw;
+}
+
+.bauchbinde-dvd {
+  background-image: url(dvd/bauchbinde-dvd.jpg);
+  height: 3rem;
+  background-size: 100%;
+  width: 100vw;
+}
+
+main {
+  background-color: black;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gal-innenblock {
+  height: auto;
+  padding: 0.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gal {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-color: black;
+}
+
+.likeure {
+  height: 1274px;
+  width: 650px;
+  margin: 0 .2rem;
+  padding: .2rem 0;
+}
+
+button {
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: 44%;
+  margin: 1rem;
+  border: none;
+  background-color: rgba(224, 255, 255, 0.596);
+  color: #6e3006;
+  font-size: .9rem;
+}
+
+button:hover {
+  background-color: rgba(175, 255, 47, 0.63);
+  color: rgba(9, 30, 65, 0.904);
+  font-weight: 700;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#link1 {
+  margin-right: .2rem;
+}
+
+#link2 {
+  margin-left: .2rem;
+}
+
+#klatschmohn {
+  height: 9rem;
+  width: auto;
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 50%;
+}
+
+#klatschmohn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+article {
+  background-color: black;
+  color: rgba(175, 255, 47, 0.575);
+}
+
+p {
+  font-family: Comfortaa;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  width: 60vw;
+}
+
+.p-div {
+  padding-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-body {
+  background-color: black;
+}
+
+.card-text {
+  width: 100%;
+}
+
+.card-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 3rem;
+}
+
+#nur {
+  font-size: .9rem;
+  text-align: center;
+  color: crimson;
+  font-weight: 600;
+}
+
+.story {
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 1.3rem;
+  color: rgba(181, 247, 75, 0.733);
+  padding-bottom: 1.8rem;
+}
+
+#kontakt {
+  text-align: right;
+  padding-left: 3rem;
+}
+
+#metatronics-banner {
+  width: 100vw;
+}
+
+footer {
+  padding-top: 1rem;
+  background-color: black;
+}
+
+#story-p {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+}
+
+#lik-intern {
+  text-align: center;
+  font-size: 1.1rem;
+  color: rgba(128, 255, 0, 0.781);
+  padding-bottom: 2rem;
+}
+
+#lik-intern-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#springer {
+  color: rgba(120, 211, 29, 0.788);
+}
+
+#springer-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 2rem;
+}
+
+#springer:hover {
+  color: chartreuse;
+}
+
+.iframe-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: .7rem;
+}
+
+.dvd-footer {
+  background-image: url(dvd/dvd-banner2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+  height: 300px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+#clip03 {
+  padding-bottom: 2rem;
+}
+
+h3 {
+  color: rgba(250, 75, 11, 0.897);
+  background-color: black;
+  padding: 2rem;
+}
+
+#bundle-box {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  height: 490px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#bundle {
+  width: 250px;
+}
+
+dvd-kontakt {
+  color: rgba(251, 50, 43, 0.966);
+}
+
+.impressum-box {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 13rem;
+}
+
+#impressum {
+  padding: 7rem;
+  background-color: rgba(165, 40, 24, 0.404);
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
